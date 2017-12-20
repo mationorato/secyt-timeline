@@ -9,6 +9,10 @@ body {
   font-family: Helvetica, sans-serif;
 }
 
+.anio{
+  text-align: center;
+}
+
 /* The actual timeline (the vertical ruler) */
 .timeline {
   position: relative;
@@ -128,6 +132,26 @@ body {
   background-color: #777;  
   border-bottom: 10px solid #00ADF3;
   transition: height 1s ease;
+}
+
+.border-financiamiento
+{
+  border-bottom: 10px solid #FFD900;
+}
+
+.border-institutos
+{
+  border-bottom: 10px solid #FF3EB5;
+}
+
+.border-transferencia
+{
+  border-bottom: 10px solid #00ADF3;
+}
+
+.border-bibliotecas
+{
+  border-bottom: 10px solid #00B08B;
 }
 
 .content:hover{
